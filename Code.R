@@ -280,6 +280,8 @@ objDB=makeMethylDB(methylBase.obj,"exMethylDB")
 
 #Selection: subsetting methylKit Objects
 
+select(meth,1:5) # get first 10 rows of a methylBase object
+
 myDiff[21:25,] # get 5 rows of a methylDiff object
 
 #selectByOverlap
